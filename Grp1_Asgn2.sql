@@ -87,7 +87,7 @@ CREATE TABLE Flight
 CREATE TABLE Booking_Flight
 (
     bookingID VARCHAR(8), 
-    flight_num VARCHAR(8) NOT NULLS,
+    flight_num VARCHAR(8) NOT NULL,
     dep_date DATE NOT NULL,
     dep_time TIME NOT NULL,
     arr_date DATE NOT NULL,
